@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10;
+    margin-left: 20;
+    background-color: white;
+}
+
+.big-parent {
+    border-radius: 10px;
+    margin: 20;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(215, 207, 207);
+}
+
+.parent {
+    margin: 20px;
+    display: flex;
+    background-color: rgb(215, 207, 207);
+    /* justify-content: space-between; */
+}
+
+.side {
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(14, 92, 208);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.textBold {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.textMed {
+    font-size: 40px;
+}
+
+.textone {
+    margin-top: 30;
+    font-size: 30px;
+    width: 60%;
+}
+
+
+.body-parent {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+#inpOne,
+#inpTwo {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    width: 50%;
+    padding-right: 50px;
+}
+
+#inpOne {
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.body-textarea {
+    margin: 50PX;
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea {
+    height: 250px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 260;
+}
+
+#join-btn {
+    border-radius: 10px;
+    margin-left: 50PX;
+    margin-right: 50PX;
+    margin-bottom: 30PX;
+
+
+    background-color: rgb(14, 92, 208);
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+#join-btn p {
+    font-size: 40px;
+}
+
+.input-text {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+input:hover {
+    border: 2px solid blue;
+}
